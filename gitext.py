@@ -1,5 +1,5 @@
 import sublime, sublime_plugin
-from git import *
+import Git.git
 
 class GitAddAllCommand(GitTextCommand):
     def run(self, edit):
